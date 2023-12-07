@@ -13,13 +13,13 @@ Um dieses Projekt auszuführen, benötigst du:
 1. Klone das Repository auf deinen lokalen Computer:
 
 ```bash
-git clone https://github.com/dein-benutzername/ich-habe-noch-nie.git
+git clone [https://github.com/dein-benutzername/ich-habe-noch-nie.git](https://github.com/uhmarlon/I-have-never)
 ```
 
 2. Navigiere in das Projektverzeichnis:
 
 ```bash
-cd ich-habe-noch-nie
+cd I-have-never
 ```
 
 3. Installiere die Abhängigkeiten mit PNPM:
