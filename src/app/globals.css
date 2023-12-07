@@ -6,18 +6,6 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-
-  --color-start-extrem: #f59e0b; /* Replace with your start color for 'Extrem' */
-  --color-end-extrem: #ea580c; /* Replace with your end color for 'Extrem' */
-
-  --color-start-normal: #10b981; /* Replace with your start color for 'Normal' */
-  --color-end-normal: #3b82f6; /* Replace with your end color for 'Normal' */
-
-  --color-start-beziehung: #ec4899; /* Replace with your start color for 'Beziehung' */
-  --color-end-beziehung: #8b5cf6; /* Replace with your end color for 'Beziehung' */
-
-  --color-start-default: #6b7280; /* Replace with your start color for 'Default' */
-  --color-end-default: #4b5563;
 }
 
 @media (prefers-color-scheme: dark) {
