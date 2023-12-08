@@ -8,22 +8,9 @@ export default function Main() {
       <section className="w-full h-screen p-6 md:p-12 bg-gray-900 text-center text-white">
         <div className="container mx-auto">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">I Have Never</h1>
-
           <GameComponent />
         </div>
       </section>
-      {/* <footer className=" w-5 p-6 md:p-12 bg-black text-center text-white mt-12">
-        <div className="container mx-auto flex items-center justify-center flex-col md:flex-row">
-          <Link href="#">
-            <span className="sr-only">I Have Never Logo</span>
-          </Link>
-          <Link className="mb-4 md:mb-0 md:mr-4" href="#">
-            <GithubIcon className="w-6 h-6" />
-            <span className="sr-only">Github Link</span>
-          </Link>
-          <p className="text-sm">© 2023 I Have Never. All rights reserved.</p>
-        </div>
-      </footer> */}
     </>
   );
 }
