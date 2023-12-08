@@ -86,7 +86,7 @@ const GameComponent: React.FC = () => {
   return (
     <div className="flex justify-center">
       <div
-        className={`max-w-2xl ${currentGradient} text-white p-8 rounded-xl shadow-lg flex flex-col justify-between`}
+        className={`max-w-2xl ${currentGradient} text-white p-8 rounded-xl shadow-lg flex flex-col`}
         style={{ minHeight: "350px" }}
       >
         <div
@@ -96,7 +96,7 @@ const GameComponent: React.FC = () => {
           {currentQuestion || "Lade Frage..."}
         </div>
         <button
-          className="px-8 py-3 border border-transparent text-base font-medium rounded-md text-black bg-white hover:bg-slate-200 mt-4 self-end"
+          className="px-8 py-3 border border-transparent text-base font-medium rounded-md text-black bg-white hover:bg-slate-200 mt-4 sm:self-end self-center sm:w-fit w-full"
           onClick={nextQuestion}
         >
           Nächste Frage
